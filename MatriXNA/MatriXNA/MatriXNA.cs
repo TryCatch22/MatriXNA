@@ -53,7 +53,7 @@ namespace Matrix
 			IsFixedTimeStep = true;
 			TargetElapsedTime = TimeSpan.FromSeconds(1.0f / Fps);
 
-			//graphics.IsFullScreen = true;
+			graphics.IsFullScreen = true;
 			graphics.PreferredBackBufferWidth = (int)ScreenSize.X;
 			graphics.PreferredBackBufferHeight = (int)ScreenSize.Y;
 			IsMouseVisible = true;

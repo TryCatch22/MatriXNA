@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Matrix", "Matrix\Matrix\Matrix.csproj", "{4AF2AD10-6CF5-4BA1-8D82-08DDA31C4807}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatriXNA", "MatriXNA\MatriXNA\MatriXNA.csproj", "{4AF2AD10-6CF5-4BA1-8D82-08DDA31C4807}"
 EndProject
-Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "MatrixContent", "Matrix\MatrixContent\MatrixContent.contentproj", "{3B76E75C-68A7-407A-9E0A-B555F651C2F6}"
+Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "MatriXNAContent", "MatriXNA\MatriXNAContent\MatriXNAContent.contentproj", "{3B76E75C-68A7-407A-9E0A-B555F651C2F6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

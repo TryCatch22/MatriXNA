@@ -7,8 +7,8 @@
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Matrix</RootNamespace>
-    <AssemblyName>Matrix</AssemblyName>
+    <RootNamespace>MatriXNA</RootNamespace>
+    <AssemblyName>MatriXNA</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>Client</TargetFrameworkProfile>
     <XnaFrameworkVersion>v4.0</XnaFrameworkVersion>
@@ -16,8 +16,9 @@
     <XnaProfile>Reach</XnaProfile>
     <XnaCrossPlatformGroupID>7b8e2a4c-7fa4-4fed-8484-7756d1e261da</XnaCrossPlatformGroupID>
     <XnaOutputType>Game</XnaOutputType>
-    <ApplicationIcon>Matrix.ico</ApplicationIcon>
-    <Thumbnail>GameThumbnail.png</Thumbnail>
+    <ApplicationIcon>MatriXNA.ico</ApplicationIcon>
+    <Thumbnail>
+    </Thumbnail>
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
@@ -75,19 +76,15 @@
     <Compile Include="Character.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Program.cs" />
-    <Compile Include="Matrix.cs" />
+    <Compile Include="MatriXNA.cs" />
     <Compile Include="Trail.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Game.ico" />
-    <Content Include="GameThumbnail.png">
-      <XnaPlatformSpecific>true</XnaPlatformSpecific>
-    </Content>
-    <Content Include="Matrix.ico" />
+    <Content Include="MatriXNA.ico" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\MatrixContent\MatrixContent.contentproj">
-      <Name>MatrixContent</Name>
+    <ProjectReference Include="..\MatriXNAContent\MatriXNAContent.contentproj">
+      <Name>MatriXNAContent</Name>
       <XnaReferenceType>Content</XnaReferenceType>
     </ProjectReference>
   </ItemGroup>

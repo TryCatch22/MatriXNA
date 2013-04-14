@@ -56,7 +56,8 @@ namespace Matrix
 			graphics.IsFullScreen = true;
 			graphics.PreferredBackBufferWidth = (int)ScreenSize.X;
 			graphics.PreferredBackBufferHeight = (int)ScreenSize.Y;
-			IsMouseVisible = true;
+			
+			//IsMouseVisible = true;
 		}
 
 		protected override void Initialize()

@@ -7,9 +7,11 @@ Because falling greentext is awesome.
 
 ## Instructions
 1. Clone, build and run with Visual Studio
-2. Use the left and right arrow keys to cycle through various colours
-3. Press spacebar to reset
-4. Press escape to quit
+2. Use the Left and Right arrow keys to cycle through various colours
+3. Press the Up arrow key for rainbow mode (slowly hue rotating colours)
+4. Press the Down arrow key to return to static (normal) colour mode
+5. Press Spacebar to reset
+6. Press Escape to quit
 
 ## Requirements
 1. Visual Studio 2010 or newer

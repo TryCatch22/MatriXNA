@@ -5,7 +5,7 @@ using System.Text;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework;
 
-namespace Matrix
+namespace MatriXNA
 {
 	class Character
 	{
@@ -25,7 +25,7 @@ namespace Matrix
 			Position = position;
 			Opacity = 1.0f;
 
-			Value = Matrix.Font.Characters[Matrix.Random.Next(Matrix.Font.Characters.Count)];
+			Value = MatriXNA.Font.Characters[Util.Random.Next(MatriXNA.Font.Characters.Count)];
 			CurrentColor = color;
 		}
 
@@ -36,7 +36,7 @@ namespace Matrix
 
 		public void Draw(SpriteBatch spriteBatch)
 		{
-			spriteBatch.DrawString(Matrix.Font, Value.ToString(), Position, CurrentColor * Opacity);
+			spriteBatch.DrawString(MatriXNA.Font, Value.ToString(), Position, CurrentColor * Opacity);
 		}
 	}
 }

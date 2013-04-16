@@ -1,6 +1,6 @@
 using System;
 
-namespace Matrix
+namespace MatriXNA
 {
 #if WINDOWS || XBOX
     static class Program
@@ -10,7 +10,7 @@ namespace Matrix
         /// </summary>
         static void Main(string[] args)
         {
-            using (Matrix game = new Matrix())
+            using (MatriXNA game = new MatriXNA())
             {
                 game.Run();
             }

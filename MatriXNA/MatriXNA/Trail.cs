@@ -5,7 +5,7 @@ using System.Text;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 
-namespace Matrix
+namespace MatriXNA
 {
 	class Trail
 	{
@@ -70,9 +70,9 @@ namespace Matrix
 		{
 			Position = new Vector2(positionX, 0);
 
-			int maxOffsetAbove = (int)Matrix.ScreenSize.Y / 4;
-			int maxOffsetBelow = (int)Matrix.ScreenSize.Y / 3;
-			endHeight = Matrix.Random.Next((int)Matrix.ScreenSize.Y - maxOffsetAbove, (int)Matrix.ScreenSize.Y + maxOffsetBelow);
+			int maxOffsetAbove = (int)MatriXNA.ScreenSize.Y / 4;
+			int maxOffsetBelow = (int)MatriXNA.ScreenSize.Y / 3;
+			endHeight = Util.Random.Next((int)MatriXNA.ScreenSize.Y - maxOffsetAbove, (int)MatriXNA.ScreenSize.Y + maxOffsetBelow);
 		}
 	}
 }
